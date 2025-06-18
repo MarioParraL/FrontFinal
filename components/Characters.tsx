@@ -22,9 +22,9 @@ const Characters: FunctionalComponent<Props> = (props) => {
                 <img src={ch.image} alt={ch.image} width={150} height={180} />
 
                 <h2>
-                  {ch.name} <FavButton characterId={ch.id} />
+                  {ch.name} 
                 </h2>
-              </a>
+              </a> <FavButton characterId={ch.id} />
             </div>
           </div>
         );
